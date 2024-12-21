@@ -1,0 +1,140 @@
+header{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:#00abf0 ;
+}
+body{
+    background: url('rt.jpg');
+    background-position: center;
+    background-size: cover;
+} 
+p{
+    color:#ededed;
+    font-size: 20px;
+}
+h2{
+    justify-items: right;
+    text-align: left;
+    color: #ededed;
+
+}
+.btn-box input{
+    width: 200px;
+    margin: 6px;
+    height: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+#btn-box button{
+    position: relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0 ;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index:1;
+    overflow: hidden;
+    transition: .5s;
+    font-size: 20px;
+    margin-left: 77px;
+}
+#btn-box button:hover{
+    color: #081b29;
+
+}
+#btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+#btn-box a:nth-child(2):hover{
+    background: #081b29
+}
+#btn-box a:nth-child(2)::before{
+    background: #00abf0;
+}
+#btn-box a:nth-child(2):hover{
+    color: #081b29;
+}
+#btn-box a::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:0;
+    background:#081b29;
+    z-index:-1;
+    transition: .5s;
+}
+#btn-box a:hover::before{
+    width: 100%;
+}
+.btn-box a{
+    position: relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0 ;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index:1;
+    overflow: hidden;
+    transition: .5s;
+    margin-left: 77px;
+    margin-top: 7px;
+    
+
+}
+.btn-box a:hover{
+    color: #00abf0;
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a:nth-child(2):hover{
+    background: #081b29
+}
+.btn-box a:nth-child(2)::before{
+    background: #00abf0;
+}
+.btn-box a:nth-child(2):hover{
+    color: #081b29;
+}
+.btn-box a::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:0;
+    background:#081b29;
+    z-index:-1;
+    transition: .5s;
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+.home-sci{
+    position: absolute;
+    bottom:40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}

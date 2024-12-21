@@ -1,0 +1,43 @@
+logo{
+    font-size:50px ;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    font-weight: 600s;
+
+}
+h1{
+    font-weight: 600;
+    margin-left: 30px;
+    color:#00abf0;
+}
+body{
+    color: #ededed;
+    background: #081b29;
+
+}
+.image-container{
+    background-image: url('me.jpg') no-repeat;
+    background-size:cover ;
+    height: 500%;
+    width: 100%;
+}
+.navbar a{
+    width: 100px;
+    background: transparents;
+    text-decoration: none;
+    text-size-adjust: adjust 30px;
+    margin: left 0;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+p{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}

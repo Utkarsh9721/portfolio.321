@@ -1,0 +1,88 @@
+logo{
+    font: size 50px ;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    font-weight: 600s;
+
+}
+h1{
+    font-weight: 600;
+    margin-left: 30px;
+    color:#00abf0;
+}
+body{
+    color: #ededed;
+    background: url('yu.jpg') no-repeat;
+    background-position: center;
+
+}
+.image-container{
+    background: url('yu.jpg') no-repeat;
+    background-size:cover ;
+    height: 500%;
+    width: 100%;
+}
+.navbar a{
+    width: 100px;
+    background: transparents;
+    text-decoration: none;
+    text-size-adjust: adjust 30px;
+    margin: left 0;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+p{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0 ;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index:1;
+}
+.btn-box a:hover{
+    color: #00abf0;
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;}
+    .btn-box a:nth-child(2):hover{
+        background: #081b29
+    }
+    .btn-box a:nth-child(2)::before{
+        background: #00abf0;
+    }
+    .btn-box a:nth-child(2):hover{
+        color: #081b29;}
+        .btn-box a::before{
+            content:'';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width:0;
+            background:#081b29;
+            z-index:-1;
+            transition: .5s;
+        }
+        .btn-box a:hover::before{
+            width: 100%;}
